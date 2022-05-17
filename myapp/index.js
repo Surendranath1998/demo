@@ -1,5 +1,22 @@
-const addDays = require('date-fns/addDays');
+const express = require('express');
 
-const result =addDays(new Date(2021, 0, 20),3);
+const app=express();
 
-console.log(result);
+app.get("/date",(request,response)=>{
+
+    let date=new Date();
+
+    
+    response.send(`todays date is ${date}`)
+
+});
+
+let _dirname="H:\\Desktop\\Node js\\Calculator\\myapp"
+app.get("/page",(request,response)=>{
+
+    let date=new Date();
+    response.sendFile('./page.html',{ root: _dirname });
+
+});
+
+app.listen(3000)
