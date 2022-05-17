@@ -1,0 +1,17 @@
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+PACKAGE :::  
+
+Package is a directory grouped one or more files /modules .
+
+These packages are commonly used by other files/modules.
+
+DeVELOPED BY NODE JS DEVELOPERS AND MADE AVAILABLE THROUGH THE NODE ECO SYSTEM
+
+NPM ::      https ://www.npmjs.com/ ...more than one million packages 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
